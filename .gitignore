@@ -1,0 +1,13 @@
+# Node modules (don't push big dependencies)
+node_modules/
+
+# Environment file (contains secrets)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac system files
+.DS_Store
