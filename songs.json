@@ -1,0 +1,99 @@
+[
+    {
+        "_id": {
+            "$oid": "68198c5318c00dca43c57edb"
+        },
+        "title": "Blinding Lights",
+        "artist": "The Weeknd",
+        "genre": "Pop",
+        "recommended": []
+    },
+    {
+        "_id": {
+            "$oid": "68198c5318c00dca43c57edc"
+        },
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "genre": "Rock",
+        "recommended": []
+    },
+    {
+        "_id": {
+            "$oid": "68198c5318c00dca43c57edd"
+        },
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "genre": "Pop",
+        "recommended": []
+    },
+    {
+        "_id": {
+            "$oid": "6819973bd0459d935e42bb68"
+        },
+        "title": "No Save Point",
+        "artist": "Run The Jewels",
+        "genre": "Rap",
+        "recommended": [],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68199754d0459d935e42bb6c"
+        },
+        "title": "Hyaena",
+        "artist": "Travis Scott",
+        "genre": "Rap",
+        "recommended": [],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6819979cd0459d935e42bb70"
+        },
+        "title": "Evil Woman",
+        "artist": "Electric Light Orchestra",
+        "genre": "Pop",
+        "recommended": [],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "681997e3d0459d935e42bb74"
+        },
+        "title": "Invisible",
+        "artist": "Duran Duran",
+        "genre": "Rock",
+        "recommended": [],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "68199861d0459d935e42bb78"
+        },
+        "title": "Malagueña Salerosa",
+        "artist": "Chingon",
+        "genre": "Mariachi",
+        "recommended": [],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6819988dd0459d935e42bb7c"
+        },
+        "title": "Three Little Birds",
+        "artist": "Bob Marley",
+        "genre": "Reggae",
+        "recommended": [],
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "681998a7d0459d935e42bb80"
+        },
+        "title": "South of Heaven",
+        "artist": "Slayer",
+        "genre": "Metal",
+        "recommended": [],
+        "__v": 0
+    }
+]

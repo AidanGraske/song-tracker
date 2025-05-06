@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Song List</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script defer src="/js/songActions.js"></script>
+</head>
+<body>
+  <h1>Welcome to Your Song Tracker</h1>
+  <h2>Add a New Song</h2>
+<form method="POST" action="/songs/add">
+  <input type="text" name="title" placeholder="Title" required>
+  <input type="text" name="artist" placeholder="Artist" required>
+  <input type="text" name="genre" placeholder="Genre" required>
+  <button type="submit">Add Song</button>
+</form>
+<br><br>
+
+
+
+
+  <form action="/songs/search" method="GET">
+    <input type="text" name="q" placeholder="Search songs..." />
+    <button type="submit">Search</button>
+  </form>
+
+  <ul>
+    <% songs.forEach(song => { %>
+        <li>
+          <strong><%= song.title %></strong> by <%= song.artist %> (<%= song.genre %>)<br>
+          Listens: <%= listenMap[song._id.toString()] || 0 %>
+      
+          <form onsubmit="handleListen('<%= song._id %>'); return false;">
+            <button type="submit">Listen</button>
+          </form>
+      
+          <form onsubmit="handleDelete('<%= song._id %>'); return false;">
+            <button type="submit">Remove Listen</button>
+          </form>
+      
+          <form method="POST" action="/songs/delete/<%= song._id %>" onsubmit="return confirm('Are you sure you want to delete this song?');">
+            <button type="submit" style="background-color: red;">Delete Song</button>
+          </form>
+        </li>
+      <% }) %>
+      
+  </ul>
+
+  
+
+
+  <div id="recommendation"></div>
+
+
+
+  <p><a href="/logout">Logout</a></p>
+</body>
+</html>

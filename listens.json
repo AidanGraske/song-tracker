@@ -1,0 +1,132 @@
+[
+    {
+        "_id": {
+            "$oid": "681999966616c13549950299"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "681998a7d0459d935e42bb80"
+        },
+        "playCount": 3,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "681999966616c1354995029e"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "6819988dd0459d935e42bb7c"
+        },
+        "playCount": 2,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "681999996616c135499502a3"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "68199861d0459d935e42bb78"
+        },
+        "playCount": 1,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "681999996616c135499502a8"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "681997e3d0459d935e42bb74"
+        },
+        "playCount": 3,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6819999a6616c135499502ad"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "6819979cd0459d935e42bb70"
+        },
+        "playCount": 1,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6819999b6616c135499502b2"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "68198c5318c00dca43c57edb"
+        },
+        "playCount": 2,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6819999c6616c135499502b7"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "68198c5318c00dca43c57edc"
+        },
+        "playCount": 1,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6819999c6616c135499502bc"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "68198c5318c00dca43c57edd"
+        },
+        "playCount": 3,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6819999d6616c135499502c1"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "6819973bd0459d935e42bb68"
+        },
+        "playCount": 1,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6819999d6616c135499502c6"
+        },
+        "userId": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "songId": {
+            "$oid": "68199754d0459d935e42bb6c"
+        },
+        "playCount": 2,
+        "__v": 0
+    }
+]

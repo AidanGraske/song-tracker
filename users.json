@@ -1,0 +1,10 @@
+[
+    {
+        "_id": {
+            "$oid": "68198cce8b59ab05b5f97bda"
+        },
+        "username": "Brain",
+        "passwordHash": "$2b$10$OWiqsUWugmKG7XvgpjjU5.Orx31CLjMKqS0D/FhgTm8I4h5AUm1Ji",
+        "__v": 0
+    }
+]
